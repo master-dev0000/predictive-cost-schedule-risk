@@ -39,3 +39,11 @@ streamlit run app/app.py
 
 ## License
 MIT License. Developed by André Belarmino Alves.
+
+## 📊 Data Sources & Engineering Benchmarks
+Trained and validated on real-world infrastructure contract audits and official macroeconomic inflation series:
+- **Federal Highway Administration (FHWA) Major Projects Dataset:** Audited cost and schedule overruns on US civil megaprojects ($> \text{US\$ 100M}$).
+- **Ministério da Gestão e da Inovação / Obrasgov.br:** Official open database with over 700,000 Brazilian federal infrastructure contracts.
+- **Banco Central do Brasil (SGS) & FGV IBRE:** Monthly time-series macroeconomic cost indicators (INCC-M, CUB, construction material price indices).
+
+👉 **Full feature dictionary, API endpoints, and data ingestion scripts are detailed in [DATA_SOURCES.md](DATA_SOURCES.md).**
